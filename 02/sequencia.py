@@ -7,7 +7,7 @@ valor = int(input("Insira o valor: "))
 while segundoNum <= valor:
     lista.append(primeiroNum + segundoNum)
     primeiroNum = segundoNum
-    segundoNum = lista[-1]
+    segundoNum = lista[-1] # define o segundo número como o último valor da lista
 
 print(lista)
 
