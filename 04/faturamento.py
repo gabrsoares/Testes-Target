@@ -10,6 +10,7 @@ total = 0
 for valor in valores.values():
     total += valor
 
+print(f'Valor total: R${total}')
 print('Percentual de representação')
 
 for estado, valor in valores.items():
