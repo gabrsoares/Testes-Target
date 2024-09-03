@@ -1,6 +1,5 @@
 primeiroNum = 0
 segundoNum = 1
-aux = 0
 lista = [primeiroNum, segundoNum]
 
 valor = int(input("Insira o valor: "))
